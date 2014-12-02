@@ -51,19 +51,19 @@ ru:
       STREAM_POST:
         description: Сообщение на стене группы
       CREATE_EVENT:
-        description: Create meetup events
+        description: Создать мероприятия
       PROPOSAL:
         description: Поддержать предложения от имени группы
       REQUEST_ACCEPT:
         description: Добавить новых участников в группу
       SEND_CANDIDATES:
-        description: Nominate members for election
+        description: Номинировать участников для выборов
       PROPOSAL_VIEW:
         description: Просмотреть частные предложения
       PROPOSAL_PARTICIPATION:
-        description: Contribute to the proposals
+        description: Внесите свои предложения
       PROPOSAL_INSERT:
-        description: Insert new proposals in the group
+        description: Добавьте новые предложения в группу
       DOCUMENT_VIEW:
         description: Просмотр документов
       DOCUMENT_MANAGE:
@@ -76,7 +76,7 @@ ru:
       MYPROP:
         description: Мои предложения
       PROP:
-        description: Proposals I participate in
+        description: Предложения, в которых я принимаю участие
       NEWPROP:
         description: Новые предложения
       NEWEVENT:
@@ -86,23 +86,23 @@ ru:
     notification_types:
       new_public_events:
         description: Новые общественные мероприятия
-        email_subject: 'New public event: %{event}'
-        message: 'New public event: <b>%{event}</b>'
+        email_subject: 'Новое публичное событие: %{event}'
+        message: 'Новое публичное событие: <b>%{event}</b>'
       new_events:
-        description: New events in the groups I participate in
-        email_subject: 'New event: %{event}'
-        message: 'New event <b>%{event}</b> in the group <b>%{group}</b>'
+        description: Новые события в моих группах
+        email_subject: 'Новое событие: %{event}'
+        message: 'Новое событие <b>%{event}</b> в группе <b>%{group}</b>'
       new_posts_user_follow:
-        description: New posts from a user I am following
-        email_subject: There is a new post
-        message: '%{user} added a new post in his blog <b>%{blog}</b>'
+        description: Новые сообщения пользователя, на которого я подписан
+        email_subject: Есть новое сообщение
+        message: '%{user} добавил новое сообщение в своем блоге <b>%{blog}</b>'
       new_valutation_mine:
-        description: New evaluation for a proposal of mine
-        email_subject: '%{title} - New evaluation'
+        description: Новые оценки моих предложений
+        email_subject: '%{title} - новые оценки'
         message: 'Your proposal <b>%{title}</b> has received a new evaluation'
       new_valutation:
         description: New evaluation for a proposal I participate in
-        email_subject: '%{title} - New evaluation'
+        email_subject: '%{title} - новые оценки'
         message: 'The proposal <b>%{title}</b> has received a new evaluation'
       available_author:
         description: User available to become an editor of a proposal

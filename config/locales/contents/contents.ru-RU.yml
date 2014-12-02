@@ -11,64 +11,46 @@ ru:
         content_html: '<p>Airesis является открытым инструменом для принятия решений в рамках электронной демократии, ориентированный на решение задач с помощью <a heref="http://en.wikipedia.org/wiki/Collective_intelligence" target="_blank"> коллективного интеллекта</a>.</p> <p>Будучи полностью разработан добровольными участниками как некоммерческий продукт, Airesis был создан для принятия более быстрых, информированных, выработанных при широком участии решений. <br/> Основан на следующих базовых принципах:</p> <ul><li><strong>Широкое участие</strong> <br/> Широкое вовлечение граждан подразумевает учет многих точек зрения. Только через непосредственное участие людей можно по настоящему понять чего они хотят. Участие в принятии решений есть суть демократического процесса. </li> <li><strong>Прозрачность и надежность</strong> <br/> Отсутсвие прозрачности создает усовия для несоблюдения правил и вырождения демократии. Прозрачность также означает открытость: по этой причине незарегистрированным пользователям содержимого сайта доступно для просмотра. Исходный код программного обеспечения также является полностью открытым.</li>  <li><strong>Конструктивный диалог</strong> <br/> Никто не владеет истиной в последней инстанции. Но с помощью соответствующих инструментов можно дорабатывать идеи предложенные многими людьми. Это может быть более продуктивно, чем попытки найти решение самостоятельно.</li>  <li><strong>Равные возможности</strong> <br/>  </li> <li><strong>Гибкость</strong> <br/> У каждой группы свои собственные потребностей, каждое предложение отличается от других, каждый пользователь имеет свои собственные потребности.</li>'
       paragraph_4:
         title: 'Наша цель: прямая и широкая демократия'
-        content_html: |
-          <p>Structured as a social network, Airesis allows users to engage other people according to their interests and to exploit
-          the qualities of each in order to consensually deliberate any type of proposal.
-          The architecture and its core values ​​allow the platform to pursue goals of social and constructive debate
-          on issues that may involve the territory, social promotion, sector policies and consequently to bring out the best ideas.</p>
-          <p>Airesis provides tools to:
-          <ul>
-          <li>Promote the ideas and experiences of individual members</li>
-          <li>Group the initiatives / proposals of individual users and present them to the community</li>
-          <li>Provide tools for the debate on various initiatives</li>
-          <li>Promote shared editing of proposals</li>
-          <li>Manage the vote of various initiatives and proposals</li>
-          <li>Promote generic events or meetings</li>
-          <li>Manage the candidates applications and the adjoining vote operations</li>
-          <li>Manage restricted sub-groups, governed by specific regulations and permissions, but with all the tools provided by the platform</li>
-          </ul>
-          </p>
+        content_html: 'Структурированные <p>как социальная сеть, Airesis позволяет пользователям вести других людей по их интересам и эксплуатировать качеств каждого из них для того, чтобы согласованно обсудить любой тип предложения. Архитектура и ее основные ценности позволяют платформы для достижения целей социального и конструктивные прения по вопросам, которые могут включать территории, социальной деятельности, сектор политики и, следовательно, выявить лучшие идеи.</p> <p>Airesis предоставляет инструменты для: <ul>, <li>продвижения идей и опыт отдельных членов</li> <li>группы инициативы / предложения индивидуальных пользователей и их общины</li> <li>предоставляют инструменты для обсуждения различных инициатив</li> <li>содействовать совместно редактирование предложений</li> <li>Управление голосования различных инициатив и предложений</li> <li>или поощрять универсальный событий</li> <li>управлять приложениями кандидатов и смежные операции голосования</li> <li>управлять ограниченным подгрупп, регулируется конкретными правилами и разрешения, но с помощью инструментов, предоставляемых в платформе</li></ul></p>'
       paragraph_5:
-        title: Characteristics and features
+        title: Характеристики и особенности
         content_html: |
-          <p>The Airesis development team builds all the functions and tools
-          <strong>according to the needs of the groups</strong> which take benefit from the platform.
-          The same development group is present on Airesis and decides <strong>consensually</strong> future implementations.</p>
-          <p>The actual structure allows the registered user to belong to a <strong>open space</strong>,
-          to join one of the <strong>groups</strong> already present or to establish a new one.
-          Either within the groups and the open space it is possible to publish initiatives / proposals, <strong>evaluate them</strong>, edit
-          a shared <strong>summary</strong> and then <strong>vote them</strong>. In the same contexts you can create events concerning <strong>meetings</strong> and <strong>vote</strong>.
+          <p>Команда разработчиков Airesis настраивает все функции и инструменты
+          <strong>согласно потребностям групп</strong>, которые извлекают выгоду из этой платформы.
+          Та же группа разработчиков присутствует на Airesis и <strong>согласованно</strong> принимает решение о будущих нововведениях.</p>
+          <p>Действующая структура позволяет зарегистрированным пользователям войти в <strong>открытое пространство</strong>,
+          чтобы присоединиться к одной из уже существующих <strong>групп</strong> или основать новую.
+          Внутри групп и в открытом пространстве возможно публиковать инициативы / предложения, <strong>оценивать их</strong>, редактировать общее <strong>резюме</strong> и затем <strong>голосовать</strong>. Там же вы можете создавать события касательно <strong>встреч</strong> и <strong>голосований</strong>.
           </p>
       paragraph_6:
-        title: Basic features
+        title: Основные возможности
         content_html: |
           <ul>
-          <li><strong>Sign up and login</strong> <br>
-          from every page or even after adding a comment or a contribution. It is even possible to login using Facebook, Google +, Meetup, Twitter or Linkedin
+          <li><strong>Зарегистрируйтесь и залогиньтесь</strong> <br>
+          с любой страницы или даже после добавления комментария или вклада. Возможно даже войти с помощью Facebook, Google +, Meetup, Twitter или Linkedin
           </li>
-          <li><strong>Public area or private area for groups</strong> (<a href="http://youtu.be/n_ZruAcNkVk" target="blank">More info in this video-tutorial</a>) <br>
-          Signin up enables you to participate in the Open Space, to join one of the groups already present or to create a new one.
+          <li><strong>Публичное или приватное пространство для групп</strong> (<a href="http://youtu.be/n_ZruAcNkVk" target="blank">Подробнее в этом видео-учебнике</a>) <br>
+          Регистрация позволяет вам участвовать в Открытом пространстве, присоединиться к одной из уже существующих групп или создать новую.
           </li>
-          <li><strong>Creation of proposals and debates</strong>
-          Both in groups and Open Space it is possible to post proposals/initiatives and receive contributions,
-          comments and evaluations to edit a shared summary of the proposal that can gain the largest possible consensus.
+          <li><strong>Создание предложений и обсуждение</strong>
+          И в группах, и в Открытом пространстве возможно публиковать предложения/инициативы и получать вклады, комментарии и оценки для редактирования общего резюме, которое сможет получить наибольшее возможное одобрение.
           </li>
-          <li><strong>Quorum and proposals vote</strong> <br>
-          Each proposal has its own quorum. Voting occurs by preference according to the Schultze method.
+          <li><strong>Кворум и голосование</strong> <br>
+          Каждое предложение имеет свой кворум. Голосование проходит по предпочтению в соответствии с методом Шульце.
           </li>
-          <li><strong>Events\calendar management</strong> <br>
-          It is possible to schedule events concerning meetings, voting, elections of candidates within groups or in the Open Space.
+          <li><strong>События\управление календарем</strong> <br>
+          Имеется возможность назначать события касательно встреч, голосований, выборов кандидатов внутри групп или в Открытом пространстве.
           </li>
-          <li><strong>Newsletter</strong> of events and news about the platform</li>
-          <li><strong>Messaging service</strong> and <strong>e-mail notifications</strong> (customizable by the user)
+          <li><strong>Рассылка</strong> о событиях и новостях платформы</li>
+          <li><strong>Система сообщений</strong> и <strong>уведомления по электронной почте</strong> (по предпочтениям пользователя)
           </li>
-          <li><strong>Uploading and managing documents</strong> and attachments to the proposals (feature currently disabled)
+          <li><strong>Загрузка и управление документами</strong> и приложениями к предложениям (функция временно недоступна)
           </li>
-          <li><strong>Polls</strong> both internal and external using Schulze voting method.</li>
-          <li><strong>Mobile App</strong></li>
+          <li><strong>Опросы</strong>, как внешние, так и внутренние, с использованием метода Шульце.</li>
+          <li><strong>Мобильное приложение</strong></li>
           </ul>
       paragraph_7:
-        title: Proposal and debate tool
+        title: Инструмент для предложений и обсуждений
         content_html: |
           <p>The core of the software is focused on the <strong>deliberative tool</strong> which allows you to participate in the drafting of a proposal, to set a common goal,
           to contribute to the search for alternative solutions and to bring to the vote the result of this work so that the proposal can receive the most
@@ -110,7 +92,7 @@ ru:
           <li>using <strong>free tags</strong> which can be entered in the text of the proposal.</li>
           </ul>
       paragraph_8:
-        title: Schulze voting method and Direct Democracy
+        title: Метод Шульце и прямая демократия
         content_html: |
           <p>When the period of time assigned for the debate ends and a sufficient number of people agree on the maturity of the proposal (these conditions vary according to the quorum of debate), the proposal go to the <strong>voting phase</strong>.</p>
           <p>At this point the proposal is <strong>frozen</strong> and the editor have to <strong>choose a time frame</strong> in which the group will be able to vote the proposal.
@@ -118,7 +100,7 @@ ru:
           <p>At the time of vote a new notification is sent in which it is displayed the proposal to be voted and the page in which the vote occurs. At this point each participant, after having read the proposal and the list of possible solutions, can submit his preference <strong>ordering</strong> these solutions from the most liked to the least and thereby allowing the processing of the <a href="http://it.wikipedia.org/wiki/Metodo_Schulze" target="blank">Schulze Method</a> to find out the solution preferrred by the group.</p>
           <p>At the end of the vote the proposal go to the <strong>"voted"</strong> status, where it is possible to review the result of the vote at any time.</p>
       paragraph_9:
-        title: Promotion of shared proposals and Participatory Democracy
+        title: Продвижение общих предложений и демократия участия
         content_html: |
           <p>Airesis was developed to promote the sharing of ideas and opinions within the community. To achieve this, the platform offers different tools:</p>
           <ul>
@@ -143,7 +125,7 @@ ru:
           </li>
           </ul>
       paragraph_10:
-        title: Temporarary anonymity, secret ballot and auditable voting
+        title: Временная анонимность, тайное голосование и проверяемое голосование
         content_html: |
           <p>One of the peculiarities of Airesis is that <strong>groups can choose if the proposals debate will be anonymous or not</strong>.</p>
           
@@ -159,19 +141,19 @@ ru:
           This is possible through the system of auditable voting implemented by Airesis .
           </p>
       paragraph_11:
-        title: Managing groups and user roles
+        title: Управление группами и ролями пользователей
     whatis:
-      title: The first Social network for e-democracy in the world
-      description: An instrument of direct democracy born to decide and act collectively on proposals and ideas generated anywhere for any theme.
+      title: Первая в мире социальная сеть для Электронной Демократии
+      description: Инструмент прямой демократии, предназначенный для выработки коллективных решений и действий по различным предложениям и идеям.
       paragraph_1:
-        title: The Social Network for E-Democracy
+        title: Социальная сеть для Электронной Демократии
         content_html: |
           <p>Airesis is a <a href="http://en.wikipedia.org/wiki/Free_software">free software platform</a>, built
           by a team of Italian developers and contributors, to enable communities and groups to organize themselves in a productive manner according to the principles
           of <a href="http://en.wikipedia.org/wiki/Direct_democracy" target="_blank">direct democracy</a> and participation.
           </p>
       paragraph_2:
-        title: Build your group
+        title: Постройте свою группу
         content_html: |
           <p>
           If you are an association, a company, a school or a party, Airesis is certanly appropriate for you!<br/>
@@ -181,7 +163,7 @@ ru:
           to organize your group with Airesis and provide e-democracy tools!
           </p>
       paragraph_3:
-        title: Organize participants
+        title: Организуйте участников
         content_html: |
           <p>
           A powerful mechanism for handling <strong> roles and permissions </strong> will allow you to give your group the shape you prefer:
@@ -190,7 +172,7 @@ ru:
           This is the reason why Airesis is perfectly suited to the needs of a <strong> Company </strong>, as well as a <strong> Democratic Movement </strong> or an <strong> Association </strong>.
           </p>
       paragraph_4:
-        title: Propose and deliberate
+        title: Предлагайте и обсуждайте
         content_html: |
           <p>
           The heart of Airesis are the proposals: you will have several templates using which you can engage people in the group and hear their opinion. <br/>
@@ -199,7 +181,7 @@ ru:
           At this very moment %{users} users are discussing %{proposals} proposals.
           </p>
       paragraph_5:
-        title: Organize your events, increase participation
+        title: Организуйте мероприятия, расширьте участие
         content_html: |
           <p>
           A complete system for scheduling events allows you to better organize the activities of your group. <br/>
@@ -207,7 +189,7 @@ ru:
           Each participant can then specify whether to participate or not, allowing organizers to better manage the event.
           </p>
       paragraph_6:
-        title: A shared documents archive
+        title: Архив общих документов
         content_html: |
           <p>
           Your group will have a very useful and complete Documents Archive that can be arranged in
@@ -218,7 +200,7 @@ ru:
           your disposal and upload up to 1GB of documents.
           </p>
       paragraph_7:
-        title: A space to discuss
+        title: Пространство для обсуждения
         content_html: |
           <p>
           The best ideas come from the dialogue: that's why Airesis decided to provide a forum for
@@ -231,7 +213,7 @@ ru:
           At the moment there are already %{topics} active discussions in Airesis!
           </p>
       paragraph_8:
-        title: Much, much more
+        title: Многое, многое другое
         content_html: |
           <p>
           The features of Airesis are not only these! <br/>
@@ -240,12 +222,12 @@ ru:
           Discover the myriad of features that will help you manage the group and will allow you to
           organize it to best: if you have a need, certainly Airesis will allow you to satisfy it!
           </p>
-        link: introduction page
+        link: Страница «Введение»
     press:
-      title: Press Release
+      title: Пресс-релиз
     roadmap:
       paragraph1:
-        title: 'Destination: direct democracy'
+        title: 'Пункт назначения: прямая демократия'
         content_html: |
           <p>Airesis was born from the fusion of two projects launched over two years ago as a result of the need to be able to use a
           software platform that could integrate the main features of social networks, event management and mass decision making system.</p>
@@ -260,32 +242,32 @@ ru:
           <p>Currently software releases are published on a monthly or bi-monthly basis to meet the demands and needs of users,
           in order to apply a process of continuous improvement.</p>
       paragraph2:
-        title: The evolution of Airesis
+        title: Эволюция Airesis
         content_html: |
           <p>The list below shows the changes of Airesis during its evolution.
           You can also find highlighted the innovations planned for future versions.
           Check this page often if you are interested to know which features are being developed and come back to visit us!</p>
-      title: The evolution of Airesis
+      title: Эволюция Airesis
       description: Our road to realize a new software, an idea capable of evolving democracy that came to life in the web.
     helpus:
-      title: Help us as you want, anyone can contribute
+      title: Помогите нам, если хотите, каждый может внести свой вклад
       description: Contribute to realize a tool capable of evolving e-democracy
       paragraph1:
-        title: Why are we asking you to support Airesis?
+        title: Почему мы просим вас поддержать Airesis?
         content_html: |
           <p>
           The volunteers working on this project spend a considerable amount of time in order to bring a useful software for our communities.
           However, volunteering and hard work alone are not sufficient: money is needed to mantain a server installation publicly available, to keep the software updated and experiment with the new features and improvements we are developing. In addition to this, paid work is required for server maintenance and user help desk.
           </p>
       paragraph2:
-        title: Choose what to support
+        title: Выберите, что поддержать
         content_html: |
           <p>Airesis allow you to donate for single features.
           The development group has dozens of ideas to improve the software, however funds are required to implement them</p>
           <p>Today you can donate to realize a specific feature, or to suggest new ideas you are willing to donate for.</p>
           <p>Go to the <a href=%{link}>donations page</a> and see what we would like to realize with your help!</p>
       paragraph3:
-        title: How to donate
+        title: Как сделать пожертвование
         content_html: |
           <p> The Association for Social Promotion named
           <a href="http://www.tecnologiedemocratiche.it/" target="_blank">Tecnologie Democratiche</a>
@@ -300,10 +282,10 @@ ru:
       paragraph4:
         content_html: '<p><a href="mailto:%{mail}">Contact us</a> for more information.</p>'
       paragraph5:
-        title: Spread the word about this project
+        title: Расскажите об этом проекте
     linkback:
       paragraph1:
-        title: Help us spread the word about this e-democracy tool
+        title: Помогите нам распространить информацию об этом инструменте электронной демократии
         content_html: |
           <p>Our project needs to be known by all those who care about the future of our democracy.
           Help us spread it in blogs and forums, on Facebook, on social networks and wherever there is a desire for democracy.</p>
@@ -312,22 +294,22 @@ ru:
           In order to display the banner or link on your website, copy the code found below and insert it
           in the code page of your site, at the point where you want it to be displayed:</p>
       paragraph2:
-        title: Banners
+        title: Баннеры
       paragraph3:
-        title: Text link
+        title: Текстовая ссылка
         content_html: '<p>If you choose to publish your banner it will be of great help to the project. Thank you.</p>'
     tags:
-      title: 'Airesis - Make a decision'
+      title: Airesis — Примите решение
       description: 'A decision making tool for direct democracy and e-government: participate in discussions, bring your ideas, suggest solutions and vote online'
     engage:
-      title: Participate in the project for a new democracy
-      description: Contribute in this project with your experiences, help us build a new democracy, more transparent and shared
+      title: Участие в проекте для новой демократии
+      description: Вложите в этот проект свой опыт, помогите нам построить новую демократию, более открытую и общую
       nav:
-        opensource: Open Source
-        participate: Participate
-        banner: Banner
+        opensource: Открытый исходный код
+        participate: Участвовать
+        banner: Баннер
       paragraph1:
-        title: Airesis is open to everyone
+        title: Airesis открыт для всех
         description_html: |
           <p>Airesis is a project based upon a free and open-source software. You can contribute to its development:</p>
           <ul>
@@ -352,7 +334,7 @@ ru:
           <p>To report your availability please fill <a href="%{form}" target="_blank"><strong>this form</strong></a>, or contact <strong>Nicola Giulietti</strong>&nbsp;- %{email} - cell. %{cell} in case of doubts or you want more informations.</p>
           <p>Here is a list of volunteers that we need:</p>
       developer:
-        title: Developer
+        title: Разработчик
         description_html: |
           <p>
           The developer is the person who actually writes the code of Airesis. <br/>
@@ -361,7 +343,7 @@ ru:
           New applicants fwill be helped and guided by the <a href="%{chisiamo}" target="_blank">head programmer</a> in their first steps to easily start their jobs.
           </p>
       analyst:
-        title: Analyst
+        title: Аналитик
         description_html: |
           <p>
           He is the conjunction ring between users and the development team. <br/>
@@ -369,7 +351,7 @@ ru:
           He elaborates algorithms, as well as pros and cons of each feature, and its possible impropriate uses.
           </p>
       first_lev_tester:
-        title: First-level tester
+        title: Тестер первого уровня
         description_html: |
           <p>
           The first-level tester is a person available to test the system without necessarily have to provide any technical feedback about the code.
@@ -377,13 +359,13 @@ ru:
           Feedback from a first-level tester will then be about unexpected occurrences from the system and bugs.
           </p>
       sec_lev_tester:
-        title: Second-level tester
+        title: Тестер второго уровня
         description_html: |
           <p>
           Good knowledge of programming is required to become a second-level tester. He is asked to perform more stringent and detailed tests than the first-level tester. A second-level tester works on complex issues and is able to push the whole system under stress, to discover hidden problems.
           </p>
       graphic:
-        title: Graphic designer
+        title: Графический дизайнер
         description_html: |
           <p>
           The graphic designer draws the user interfaces and gives their drafts to the development group.
@@ -399,7 +381,7 @@ ru:
           attractive even and foremost to them, basing on their feedbacks.
           </p>
       communication:
-        title: Communication manager
+        title: Менеджер по коммуникациям
         description_html: |
           <p>
           He manages press contacts, promotes the software looking for new users, technical aspects such as linkback and SEO (Search Engine Optimization),
@@ -407,7 +389,7 @@ ru:
           He updates social networks and media, represent the external referent-spokesman.
           </p>
       i18n:
-        title: Internazionalization
+        title: Интернационализация
         description_html: |
           <p>
           He is in charge of the software translation. He contacts and coordinates foreign translators.<br/>

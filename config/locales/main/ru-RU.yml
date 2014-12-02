@@ -915,21 +915,21 @@ ru:
       editor_name: 'Автор версии:'
       revision: Версия
       date_and_time: Дата и время
-      present_life_cycle: Present life cycle
+      present_life_cycle: Действующий жизненный цикл
       no_revision: Версий нет
       life_cycle: Жизненный цикл
       life_cycle_number: 'Жизненный цикл номер %{life}'
       end_date: 'Окончание:'
-      score_reached: 'Maturity reached:'
-      evaluation_reached: 'Number of evaluations:'
-      quorum_used: 'Quorum used:'
-      editors_in_life_cycle: 'Editors in this life cycle:'
+      score_reached: 'Уровень одобрения достигнут:'
+      evaluation_reached: 'Число оценок:'
+      quorum_used: 'Кворум использован:'
+      editors_in_life_cycle: 'Редакторы этого жизненного цикла:'
       solutions:
-        added: NEW SOLUTION
-        removed: REMOVED SOLUTION
+        added: НОВОЕ РЕШЕНИЕ
+        removed: РЕШЕНИЕ УДАЛЕНО
       sections:
-        added: NEW PARAGRAPH
-        removed: REMOVED PARAGRAPH
+        added: НОВЫЙ ПУНКТ
+        removed: ПУНКТ УДАЛЁН
     tags:
       show:
         related_title: Похожие теги
@@ -961,8 +961,8 @@ ru:
       send_error: Приносим свои извинения, при отправке отзыва произошла ошибка
       describe_problem: 'Напишите ваше сообщение:'
       highlight_or_blackout: Выделить или затемнить важную информацию
-      blackout: Blackout
-      highlight: Highlight
+      blackout: Затемнить
+      highlight: Выделить
     passwords:
       edit:
         title: Изменить пароль
@@ -971,25 +971,25 @@ ru:
         insert_comment: Вставить комментарий
     propsoals:
       index:
-        type: 'of type %{type}'
+        type: 'типа %{type}'
     proposal_comments:
-      title: Contribute History
+      title: История вкладов
     available_authors:
       index:
         explain_html: |
-          Select the users you want to help you draw up a summary of the proposal and click on 'Save'.<br/>
-          Be careful! These users will have the same permissions in the management of your proposal.
+          Выберите пользователей, которые, по вашему желанию, помогут вам составить резюме предложения, и нажмите «Сохранить».<br/>
+          Будьте осторожны! Эти пользователи будут иметь равные с вашими права в управлении этим предложением.
     participation_roles:
       edit:
-        title: Edit Participation Role
+        title: Редактировать роль участника
     group_participations:
       index:
-        title: Participants List
+        title: Список участников
   pl:
     comments:
-      one: one comment
-      few: '%{count} comments'
-      other: '%{count} comments'
+      one: один комментарий
+      few: '%{count} комментария'
+      other: '%{count} комментариев'
   activerecord:
     models:
       meeting: Совещание
@@ -1012,70 +1012,70 @@ ru:
         endtime: Дата завершения
         all_day: Весь день
         period: Повтор
-        frequency: Repeat every
-        private: Private
-        candidates_end_time: Deadline date for candidates entry
+        frequency: Повторять каждые
+        private: Приватно
+        candidates_end_time: Последний срок записи кандидатов
         meeting:
           place:
-            address: Address
-            comune_id: City
+            address: Адрес
+            comune_id: Город
       group:
-        facebook_page_url: Facebook page address
-        name: Name
-        title_bar: Title Bar
-        description: Description
-        accept_requests: Request for Participation
-        porta_id: Administrator
-        interest_border_tkn: Geographical place of interest
-        interest_border_id: Geographical place of interest
-        image_url: Image Address
-        default_role_name: "What's the name for new users?"
-        default_role_name_placeholder: 'Eg: Users, Members, Activists, Pirates'
-        name_placeholder: Choose a name related to the group identity and/or location.
-        title_bar_placeholder: Group page title.
-        description_placeholder: This message will be on the first page of the group
-        image_url_placeholder: Group image URL
-        facebook_page_url_placeholder: Group Facebook page? insert link here.
-        admin_title: How are the administrators of the group called?
-        private: Private group
-        rule_book: Rule book
-        image: Load image
-        admin_title_placeholder: 'Role name of the group administrators (default: Administrator)'
+        facebook_page_url: Адрес страницы Facebook
+        name: Имя
+        title_bar: Заголовок окна
+        description: Описание
+        accept_requests: Заявка на участие
+        porta_id: Администратор
+        interest_border_tkn: География интересов
+        interest_border_id: География интересов
+        image_url: Адрес изображения
+        default_role_name: Какое имя для новых пользователей?
+        default_role_name_placeholder: 'Например: Пользователи, Участники, Активисты, Пираты'
+        name_placeholder: Выберите имя, связанное с индентичностью группы и/или местоположением.
+        title_bar_placeholder: Заголовок страницы группы.
+        description_placeholder: Это сообщение будет на первой странице группы
+        image_url_placeholder: URL изображения группы
+        facebook_page_url_placeholder: Страница группы в Facebook? Вставьте ссылку здесь.
+        admin_title: Как называются администраторы группы?
+        private: Закрытая группа
+        rule_book: Книга правил
+        image: Загрузить изображение
+        admin_title_placeholder: 'Имя роли для администраторов группы (по умолчанию: администратор)'
       blog:
-        title: Title
+        title: Заголовок
       blog_post:
-        title: Title
-        body: Text
-        published: State
-        published_true: Published
-        published_false: Draft
-        published_reserved: Reserved
+        title: Заголовок
+        body: Текст
+        published: Состояние
+        published_true: Опубликовано
+        published_false: Черновик
+        published_reserved: зарезервировано
       participation_role:
-        name: Name
-        description: Short description
+        name: Название
+        description: Краткое описание
       group_invitation:
-        emails_list: E-mail addresses
-        testo: Message text
+        emails_list: Адреса электронной почты
+        testo: Текст сообщения
       place:
-        address: Address
+        address: Адрес
       proposal:
-        group_area_id: Work area
-        proposal_category_id: Category
+        group_area_id: Рабочая область
+        proposal_category_id: Категория
         title: Заголовок
         content: Текст
         interest_borders_tkn: Географические достопримечательности
         tags_list: Теги
         quorum_id: Длительность обсуждения
         anonima: Временная анонимность
-        visible_outside: Publicly visible
+        visible_outside: Публично видимое
         secret_vote: Тайное голосование
       proposal_comment:
         content: Содержимое
       quorum:
-        name: Name of the quorum
-        name_title: Please enter a short, explanatory title
-        description: Description / Brief explanation
-        description_title: A description to understand the purpose of this quorum
+        name: Название кворума
+        name_title: Пожалуйста, введите короткий, значащий заголовок
+        description: Описание / Краткое пояснение
+        description_title: Описание предназначения этого кворума
         days_m: Дня(ей)
         hours_m: часа(ов)
         minutes_m: Минут(ы)
@@ -1113,157 +1113,157 @@ ru:
     errors:
       template:
         header:
-          one: 'an error did not allow this %{model} from being saved'
-          few: '%{count} errors did not allow this %{model} from being saved'
-          other: '%{count} errors did not allow this %{model} from being saved'
-        body: There were problems with the following fields
+          one: 'ошибка при сохранении %{model}'
+          few: '%{count} ошибок при сохранении %{model}'
+          other: '%{count} ошибок при сохранении %{model}'
+        body: Возникли проблемы со следующими полями
       messages:
-        inclusion: is not included in the list
-        exclusion: is reserved
-        invalid: is invalid
-        confirmation: does not match confirmation
-        accepted: must be accepted
-        empty: can not be blank
-        blank: must be filled
-        too_long: The text is too long
-        too_short: The text is too short
-        wrong_length: "should be% {count} characters)'"
-        taken: is already taken
-        not_a_number: is not a number
-        greater_than: 'must be greater than %{count}'
-        greater_than_or_equal_to: 'must be greater than or equal of %{count}'
-        equal_to: 'must be equal to %{count}'
-        less_than: 'must be less than %{count}'
-        less_than_or_equal_to: 'must be less than or equal to %{count}'
-        odd: must be even
-        even: must be odd
-        record_invalid: 'Validation failed %{errors}'
-        not_found: not found.
-        TOS: It is required to accept the TOS
+        inclusion: не включен в список
+        exclusion: зарезервировано
+        invalid: имеет неверное значение
+        confirmation: не совпадает с подтверждением
+        accepted: должно быть принято
+        empty: не может быть пустым
+        blank: должно быть заполнено
+        too_long: Текст слишком длинный
+        too_short: Текст слишком короткий
+        wrong_length: "требуется% {count} символов)'"
+        taken: уже занят
+        not_a_number: не является числом
+        greater_than: 'должно быть больше чем %{count}'
+        greater_than_or_equal_to: 'должно быть больше или равно %{count}'
+        equal_to: 'должно быть равно %{count}'
+        less_than: 'должно быть меньше, чем %{count}'
+        less_than_or_equal_to: 'должно быть меньше или равно %{count}'
+        odd: должно быть чётным
+        even: должно быть нечетным
+        record_invalid: 'Проверка не удалась %{errors}'
+        not_found: не найдено.
+        TOS: Необходимо принять Правила Предоставления Сервиса
       full_messages:
         format: '%{attribute} %{message}'
       models:
         user:
           attributes:
             email:
-              already_confirmed: This e-mail address is already registered
+              already_confirmed: Этот адрес электронной почты уже зарегистрирован
         group:
           portavoce:
-            required: You must choose an administrator
+            required: Вы должны выбрать администратора
   models:
     best_quorum:
-      good_score_condition: 'The proposal will go to the vote if it has a maturity greater than <b>%{good_score}%</b> and %{participants}, otherwise it will be abandoned'
-      good_score_condition_past: 'The proposal would have gone to the vote if it had a maturity greater than <b>%{good_score}%</b> and %{participants}, otherwise it would had been abandoned'
+      good_score_condition: 'Предложение перейдёт на стадию голосования, если оно достигнет уровня свыше чем <b>%{good_score}%</b> и %{participants}, иначе работа над ним прекратится'
+      good_score_condition_past: 'Предложение бы перешло на стадию голосования, если бы оно достигло уровня свыше  <b>%{good_score}%</b> и %{participants}, иначе работа над ним бы прекратилась'
     quorum:
       participants:
-        one: '<b>a person</b> will have participated'
-        few: 'they have participated <b>%{count}</b> people'
-        other: 'they have participated <b>%{count}</b> people'
+        one: '<b>человек</b> примет участие'
+        few: 'приняло участие <b>%{count}</b> человека'
+        other: 'приняло участие <b>%{count}</b> человек'
       participants_past:
-        one: '<b>a person</b> has participated'
-        few: 'they had participated in <b>%{count}</b> people'
-        other: 'they had participated in <b>%{count}</b> people'
-      or_condition_1: 'The debate will end in %{time} or when %{participants_num}.'
-      or_condition_1_past: 'The debate lasted %{time} or when %{participants_num}.'
-      and_condition_1: 'The debate will end in %{time}, but it will continue unless %{participants_num}.'
-      and_condition_1_past: 'The debate lasted %{time}, but continued unless %{participants_num}.'
-      time_condition_1: 'The debate will end in %{time}'
-      time_condition_1_past: 'The debate lasted %{time}'
-      participants_condition_1: 'The debate will continue until %{participants_num}.'
-      participants_condition_1_past: 'The debate continued until %{participants_num}.'
-      good_score_condition: 'The proposal will go to the vote if it has a maturity greater than <b>%{good_score}%</b>, otherwise it will be abandoned'
-      good_score_condition_past: 'The proposal would have gone to the vote if it had a maturity greater than <b>%{good_score}%</b>, otherwise it would had been abandoned'
+        one: '<b>человек</b> принял участие'
+        few: 'приняло участие <b>%{count}</b> человека'
+        other: 'приняло участие <b>%{count}</b> человек'
+      or_condition_1: 'Обсуждение закончится %{time} или когда %{participants_num}.'
+      or_condition_1_past: 'Обсуждение длилось %{time} или момента, когда %{participants_num}.'
+      and_condition_1: 'Обсуждение закончится %{time}, но будет продолжаться до того времени, когда %{participants_num}.'
+      and_condition_1_past: 'Обсуждение длилось %{time}, но продолжалось до того момента, когда %{participants_num}.'
+      time_condition_1: 'Обсуждение закончится %{time}'
+      time_condition_1_past: 'Обсуждение длилось %{time}'
+      participants_condition_1: 'Обсуждение будет продолжаться до того момента, когда %{participants_num}.'
+      participants_condition_1_past: 'Обсуждение продолжалось до %{participants_num}.'
+      good_score_condition: 'Голосование по предложению будет проведено, если уровень одобрения будет выше чем <b>%{good_score}%</b>, в противном случае работа над ним остановится'
+      good_score_condition_past: 'Голосование по предложению было бы проведено, если бы уровень одобрения был выше чем <b>%{good_score}%</b>, в противном случае работа над ним была бы остановлена'
       bad_score_explain: |
-        If the proposal gets a maturity over <b>%{good_score}%</b> it will go to the voting phase. If however it gets a rank below <b>%{bad_score}%</b>, it will be abandoned.<br/>
-        The debate will continue if the rank remains between these two thresholds, regardless of time or the number of evaluations
+        Если предложение наберёт свыше <b>%{good_score}%</b>, оно перейдёт на стадию голосования. Однако, если оно наберёт менее <b>%{bad_score}%</b>, работа с ним прекратиться.<br/>
+        Обсуждение будет продолжаться, пока уровень остаётся между этими двумя пороговыми значениями, вне зависимости от времени или количества оценок
       bad_score_explain_past: |
-        If the proposal got a maturity over <b>%{good_score}%</b> it went to the voting phase. If however it got a rank below <b>%{bad_score}%</b>, it was abandoned.<br/>
-        The debate continued if the rank remained between these two thresholds, regardless of time or the number of evaluations
-      until_date: '(until %{date})'
+        Если предложение набрало <b>%{good_score}%</b>, оно прошло на стадию голосования. Если, однако, оно набрало менее <b>%{bad_score}%</b>, работа по нему прекратилась.<br/>
+        Обсуждение продолжалось, пока уровень оставался между этими двумя пороговыми значениями, вне зависимости от времени или количества оценок
+      until_date: '(до %{date})'
       help_content:
         description_html: |
-          <h3>What is a quorum?</h3>
+          <h3>Что такое кворум?</h3>
           <p>
-          A quorum is the parameter that determines when the debate of the proposal ends and the voting phase starts.<br />
-          When you create a new proposal you choose one of the quorum available in the Open Space or one among the quorums available in your group.<br />
-          In this window you can click the different quorums in order to view its characteristics: you will find the description and the list of the parameters chosen.<br />
+          Кворум — это параметр, который определяет, когда кончается обсуждение предложения и начинается фаза голосования.<br />
+          Когда вы создаёте новое предложение, вы выбираете кворум доступный в Открытом пространстве или среди кворумов, доступных в вашей группе.<br />
+          В этом окне вы можете кликнуть по различным кворумам, чтобы увидеть их характеристики: вы найдёте описание и список параметров для выбранного варианта.<br />
           </p>
-        participants: 'Minimum number of participant:'
-        not_specified: Not specified
-        time_discussion: 'Period of discussion:'
-        condition: 'Condition of passage:'
-        at_least_one: At least one
-        both: Both
-        good_score: 'Maturity:'
-        bad_score: 'Rejection:'
+        participants: 'Минимальное число участников:'
+        not_specified: Не определено
+        time_discussion: 'Период обсуждения:'
+        condition: 'Условие прохождения:'
+        at_least_one: По крайней мере один
+        both: Оба
+        good_score: 'Зрелость:'
+        bad_score: 'Отклонение:'
   proposals:
     create_button: Создать предложение
     show:
-      ready_for_vote: Ready for vote
-      keep_discuss: Continue the discussion
-    regenerate_button: Put back in debate
+      ready_for_vote: Готово для голосования
+      keep_discuss: Продолжить обсуждение
+    regenerate_button: Вернуть на обсуждение
     edit:
-      expand_all: Expand all
-      collapse_all: Collapse all
+      expand_all: Расширить все
+      collapse_all: Сократить все
     schulze_vote_results:
-      results: Results
-      votes: Votes
-      solution: Solution
-      points: Points
-      random_ordered_votes: Random ordered votes
-      number_of_voters: Number of voters
-      vote: Their vote
-  digit_tags: Type the tags you want to add
+      results: Результаты
+      votes: Голоса
+      solution: Решение
+      points: Баллы
+      random_ordered_votes: Голоса в случайном порядке
+      number_of_voters: Количество голосовавших
+      vote: Их голоса
+  digit_tags: Введите теги, которые вы хотите добавить
   buttons:
     cancel: Отмена
-    save: Save
-    report: Report
-    update: Update
-    send: Send
-    create: Create
-    delete: Delete
+    save: Сохранить
+    report: Сообщить
+    update: Обновить
+    send: Отправить
+    create: Создать
+    delete: Удалить
     search: Поиск
-    close: Close
-    edit: Edit
-    next: Next
+    close: Закрыть
+    edit: Редактировать
+    next: Далее
     go_back: Вернуться обратно
-    chosen: I have chosen!
-    ok: OK
-    yes_word: 'YES'
-    no_word: 'NO'
-    mark: Mark
-    update_and_continue: Save and continue
-    detach: Detach
+    chosen: Я выбрал!
+    ok: ХОРОШО
+    yes_word: ДА
+    no_word: НЕТ
+    mark: Отметить
+    update_and_continue: Сохранить и продолжить
+    detach: Отделить
   tooltips:
-    random_stack_1: "<strong>How it works?</strong><br/>Firstly they are shown the new contributions or the ones you haven't evaluated, then the contributions you already evaluated in order of popularity. <br/> <b>Note</b>: Your rating will change this order!"
-    random_stack_2: '<strong>How it works?</strong><br/>Contributions are shown in chronological order starting with the most recent'
-    random_stack_3: '<strong>How it works?</strong><br/>Contributions are shown in order of popularity. <br/> <b>Note</b>: Your rating will change this order!'
-    miglioricontributi: '<strong> How can I help? </strong> <br/> Contributions should not express simple appreciation but substantial changes to the text: constructive criticism, alternatives or improvements to the proposal will help the writer to develop a shared summary of the text. <br /> <br/> <b>Note</b>: The most valuable contribution is what makes it possible to find a solution to the proposal!'
-    voglioredigere: Ask the editors to allow you to edit the text of the proposal on the basis of the contributions of the users.
-    voteup: The proposal is mature enough and can go to the voting phase (you can change your evaluation when the text of the proposal is updated)
-    votedown: "The text of the proposal is not mature yet, because the users' contributions has to be integrated (you can change your evaluation when the text of the proposal will be updated)"
-    valutazioni: total number of evaluations received
-    gradimento: percentage of positive evaluations on the total
+    random_stack_1: '<strong>Как это работает?</strong><br/>Сначала показывается новый вклад или тот, который вы не оценили, затем вклад, который вы оценили по степени популярности. <br/> <b>Примечание</b>: Ваша оценка изменит порядок!'
+    random_stack_2: '<strong>Как это работает?</strong><br/>Вклад показан в хронологическом порядке, начиная с самого последнего'
+    random_stack_3: '<strong>Как это работает?</strong><br/>Вклад показан в порядке популярности. <br/> <b>Примечание</b>: Ваша оценка изменит порядок!'
+    miglioricontributi: '<strong> Как я могу помочь? </strong> <br/> Каждый вклад должен не просто выражать поддержку, но предлагать существенные изменения в текст: конструктивную критику, альтернативы или улучшения для предложения, которые помогут автору разработать общее резюме текста. <br /> <br/> <b>Примечание</b>: Наиболее ценен тот вклад, который делает возможным нахождение решения для предложения!'
+    voglioredigere: Попросите редакторов позволить вам редактировать текст предложения на основании вклада пользователей.
+    voteup: Предложение достигло достаточно уровня и может перейти на стадию голосования (вы можете менять вашу оценку, когда текст предложения обновляется)
+    votedown: Текст предложения не достаточно готов, поскольку вклад пользователей должен быть интегрирован (вы можете менять вашу оценку, когда текст предложения обновляется)
+    valutazioni: общее количество полученных оценок
+    gradimento: процент позитивных оценок
     nickname: '<strong> In this proposal, we have chosen to discuss anonymously </strong> <br /> In this way is not possible for other users to know who you are and at the same time, it is not possible for you to know who the others are. <br /> working and talking this way you will be able to make decisions and evaluate proposals based only on on content. <br/> <b>Note</b>: When the discussion is finished and the proposal will be approved or rejected then you will see the real names of users!'
     manage_noise: '<strong> Manage useless contributions</ strong> <br /> Participants will advise you what contributions are useless to the discussion. With this panel you can remove and put them in the Deleted Contributions folder.'
     view_noise: 'View <strong>useless contributions</ strong> <br /> In here you will find all the contributions that have been deemed useless and removed the discussion by the editors of the proposal'
     quorum_minutes: 'until <b>%{date}</b> at %{time}'
     quorum_valutations: 'until it will be rated by at <b>least %{valutations} people</b>'
     quorum_description: 'The proposal will be in debate %{conditions}. It will go to the voting phase only if its <b>maturity</b> is greater than <b>%{good_score}%</b>.'
-  group: group
-  saving: Saving...
-  sending: Sending...
-  updating: Updating...
+  group: группа
+  saving: Сохранение...
+  sending: Отправка...
+  updating: Обновление...
   loading: Загрузка...
   error:
-    setting_preferences: Error while setting preferences
-    admin_required: You must be admin to view this page
-    permissions_required: You are not allowed to make this operation
-    portavoce_required: You must be the admin of the group to view this page
-    blog_required: In order to do this action you have to create your personal blog
-    not_your_blog: "This action cannot be done on another user's blog"
-    role_permission_change: It is not possible to change this permission
-    event_answer: Error while sending the answer
+    setting_preferences: Ошибка при настройке параметров
+    admin_required: Для просмотра этой страницы вы должны быть администратором
+    permissions_required: Вы не можете совершить эту операцию
+    portavoce_required: Вы должны быть администратором группы для просмотра этой страницы
+    blog_required: Для совершения этого действия вы должны создать свой личный блог
+    not_your_blog: Это действие не может быть сделано с блогом другого пользователя
+    role_permission_change: Эти права невозможно изменить
+    event_answer: Ошибка при отправке ответа
     event_already_answered: You have already answered to this event
     event_past: The event has ended
     configuration_required: Module not enabled
@@ -1317,41 +1317,41 @@ ru:
       request_not_registered: You are already member of this groups but your participation request has not been registered. Valid data
       request_sent: Error while creating the participation request
       request_not_found: Request not found. Operation error
-      error_saving: Error in the procedure. Unable to continue
+      error_saving: Ошибка при выполнении. Продолжение невозможно
     error_404:
       proposals:
-        title: "This proposal doesn't exist"
-        description: "The proposal you are looking for doesn't exist or has been deleted"
+        title: Это предложение не существует
+        description: Предложение, которое вы ищете, не существует или было удалено
       blog_posts:
-        title: "This post doesn't exist"
-        description: "The post you are looking for doesn't exist or has been deleted"
+        title: Этот пост не существует
+        description: Пост, который вы ищете, не существует или был удален
       events:
-        title: "This event doesn't exist"
-        description: "The event you are looking for doesn't exist or has been deleted"
+        title: Это событие не существует
+        description: Событие, которое вы ищете, не существует или было удалено
       groups:
         title: Эта группа не существует
         description: Группа, которую вы ищете, не существует или была удалена
-      title: "The page you are looking for doesn't exist"
-      description: Your address might be wrong, or this page does no longer exist
+      title: Страница, которую вы ищете, не существует
+      description: Ваш адрес неверен или эта страница не существует
     error_500:
       title: Ошибка!
       description: Отчет был отправлен и проблема будет решена как можно скорее.
     event:
-      comment_added: Error while entering the comment
-    participations_destroyed: Error during operation
+      comment_added: Ошибка при вводе комментария
+    participations_destroyed: Ошибка при выполнении операции
     error_indexer:
-      title: Service unavailable
-      description: We are experiencing problems with internal systems. Try again in few minutes.
+      title: Служба недоступна
+      description: У нас проблемы со внутренними системами. Попробуйте снова через несколько минут.
     error_302:
-      title: Unauthorized access
-      description: Sorry. You do not have permissions to access this resource.
+      title: Несанкционированный доступ
+      description: Извините. У вас нет прав на доступ к этому ресурсу.
     area_participation:
-      create: Error adding the user to the area
+      create: Ошибка при добавлении пользователя в область
   info:
-    setting_preferences: Settings changed successfully
-    blog_created: Post successfully created
+    setting_preferences: Настройки успешно изменены
+    blog_created: Пост успешно создан
     proposal:
-      can_change_valutation: The proposal has been modified since you evaluated it. If you want, you can change your evaluation!
+      can_change_valutation: С тех пор как вы оценили предложение, оно было изменено. Если хотите, вы можете изменить оценку!
       waiting_date: The proposal has gone trough the discussion phase and it is now waiting of a date for the vote
       voting: The proposal is in the voting phase
       ask_participation: Ask to become a member of the group to evaluate and contribute to this proposal
@@ -1406,18 +1406,18 @@ ru:
       permissions_updated: Permissions updated
       role_created: Role successfully created
       role_changed: Role successfully changed
-      role_deleted: Role successfully deleted
-      user_removed_from_group: '%{name} successfully removed from the group'
+      role_deleted: Роль успешно удалена
+      user_removed_from_group: '%{name} успешно удален из группы'
     user:
-      click_to_change: Click the information you want to change
-      info_updated: Information successfully updated
-      account_joined: Accounts joined successfully!
-      tooltips_enabled: Tooltips enabled
-      tooltips_disabled: Tooltips disabled
-      url_shown: URLs visible
-      url_hidden: URLs hidden
-      update_border: Geographical interest borders updated correctly
-      confirm_email: You need to confirm the new email address
+      click_to_change: Выберите информацию, которую вы хотите изменить
+      info_updated: Информация успешно обновлена
+      account_joined: Аккаунты успешно соединены!
+      tooltips_enabled: Подсказки включены
+      tooltips_disabled: Подсказки выключены
+      url_shown: URL-адреса отображаются
+      url_hidden: URL-адреса скрыты
+      update_border: Границы географических интересов успешно обновлены
+      confirm_email: Вам необходимо подтвердить новый адрес почты
       IP_disabled: Identity Provider removed
       time_zone_changed: Time zone saved
     blog:
@@ -1473,95 +1473,95 @@ ru:
       click_here: Click here
     new_contribute:
       title: '%{user} inserted a new %{comment} in the proposal'
-      view_proposal: '%{click_here} to see the proposal.'
+      view_proposal: '%{click_here}, чтобы увидеть предложение.'
     text_update:
-      view_proposal: 'The proposal <b>%{proposal}</b> has been updated!'
-      integrated_contributes: 'Congratulations! The following contributions that you had inserted have been integrated by the editors:'
-      view_proposal_2: '%{click_here} and verify that the new text contains your suggestions. <br/> If you are not satisfied you can always put your contributions back in debate by pulling them from History.'
-      connect: 'Log in %{name}'
+      view_proposal: 'Предложение <b>%{proposal}</b> было обновлено!'
+      integrated_contributes: 'Поздравления! Следующий вклад, который вы внесли, был интегрирован редакторами:'
+      view_proposal_2: '%{click_here} и убедитесь, что новый текст содержит ваши предложения. <br/> Если вы не удовлетворены, вы всегда можете вернуть ваш вклад на обсуждение, перенеся его из истории.'
+      connect: 'Вход в %{name}'
     unintegrated_contribute:
-      view_proposal: 'A contribution that had been integrated into the proposal <b>%{click_here}</b> has been put back into debate by its author.'
-      view_proposal_2: '%{click_here} why the author did not consider that his contribution has been integrated properly.'
-      verify: Check
+      view_proposal: 'Вклад, который был интегрирован в предложение <b>%{click_here}</b>, был возвращён на обсуждение его автором.'
+      view_proposal_2: '%{click_here} почему автор не считает, что его вклад был интегрирован должным образом.'
+      verify: Проверить
     user_message:
-      hi_user: 'Hi %{user},'
-      user_sent_message: '%{user} sent you the following message:'
-      reply_to_user: 'You can reply to %{user} simply by replying to this e-mail.'
+      hi_user: 'Привет, %{user},'
+      user_sent_message: '%{user} отправил вам следующее сообщение:'
+      reply_to_user: 'Вы можете ответить %{user} просто ответив на это письмо.'
     blocked:
-      hi_user: 'Hi %{user},'
-      deleted_correctly: we inform you that your account has been successfully deleted from Airesis.
-      greetings: 'Greetings,<br/> Airesis Team'
+      hi_user: 'Привет, %{user},'
+      deleted_correctly: сообщаем вам, что ваш аккаунт был успешно удалён с Airesis.
+      greetings: 'Добрый день,<br/> Команда Airesis'
     new_blog_comment:
-      title: '%{user} added a new comment to your post %{post}.'
-      click_here: Click here
-      view_post: '%{click_here} to view the post.'
+      title: '%{user} добавил новый комментарий к вашему посту %{post}.'
+      click_here: Нажмите сюда
+      view_post: '%{click_here} для просмотра поста.'
     invite:
-      hi_user: Hello!
-      invitation: '%{user} invited you to participate in the group <b>%{group}</b> on %{app_name}, the e-democracy platform for the direct and participatory democracy.'
-      message_intro: 'Here is the message he sent you:'
-      accept_or_reject: "If you accept the invite click on 'Accept', otherwise on 'Refuse'."
-      no_more: "If you don't want to receive invitations from %{app_name} click on 'No further invitations'."
-      accept: Accept
-      reject: Refuse
-      greetings: Greetings!
-      no_more_button: No further invitations
-      subject: 'You have been invited to %{group_name}'
+      hi_user: Здравствуйте!
+      invitation: '%{user} пригласил вас принять участие в группе <b>%{group}</b> на %{app_name}, платформе электронной демократии для прямой демократии и демократии участия.'
+      message_intro: 'Вот сообщение, которое он послал вам:'
+      accept_or_reject: Если вы принимаете приглашение, нажмите «Принять», в противном случае — «Отказаться».
+      no_more: 'Если вы не хотите получать приглашения от %{app_name}, нажмите «Больше не получать приглашений».'
+      accept: Принять
+      reject: Отказаться
+      greetings: Поздравляем!
+      no_more_button: Больше не получать приглашений
+      subject: 'Вас пригласили в %{group_name}'
     update_contribute:
-      title: '%{user} changed his contribute'
-      view_proposal: '%{click_here} to see the contribute and change your evaluation'
+      title: '%{user} изменил свой вклад'
+      view_proposal: '%{click_here}, чтобы просмотреть его вклад и изменить свою оценку'
   words:
-    contribute: contribution
-    comment: comment
-    or: or
-    and: and
-    terms_of_service: Terms of Service
-    privacy_policy: Privacy
+    contribute: вклад
+    comment: комментарий
+    or: или
+    and: и
+    terms_of_service: Пользовательское соглашение
+    privacy_policy: Конфиденциальность
     guide: FAQ
-  terms_of_service: Terms
-  privacy_policy: Privacy
+  terms_of_service: Условия
+  privacy_policy: Конфиденциальность
   controllers:
     searches:
       index:
-        groups_divider: Groups
+        groups_divider: Группы
   tags:
     index:
-      tag_title: '%{proposals} proposals - %{blog_posts} blog posts - %{groups} groups'
+      tag_title: '%{proposals} предложения — %{blog_posts} посты в блогах — %{groups} группы'
   blog_posts:
     form:
-      published_title: Your post will be published on the web and everyone will be able to see, share and comment it
-      reserved_title: Your post will be visible only to users which belongs to the groups in which you publish
-      draft_title: Your post is visible only to you
-  confirm_delete: Are you sure?
-  you: You
+      published_title: Ваш пост будет опубликован в сети и каждый сможет просматривать его, делиться и комментировать
+      reserved_title: Ваш пост будет видимым только для пользователей, которые принадлежат к группам, в которых вы публикуетесь
+      draft_title: Ваш пост можете видеть только вы
+  confirm_delete: Вы уверены?
+  you: Вы
   twitter:
     share:
-      blog_post: 'Look at this post on #%{app}! %{tags}'
-      event: 'There is a new event on #%{app}'
+      blog_post: 'Посмотрите на этот пост на #%{app}! %{tags}'
+      event: 'Новое событие на #%{app}'
   home:
     portlets:
       last_proposals:
-        proceed_to_proposals: Proceed to proposals
+        proceed_to_proposals: Перейти к предложениям
       from_blogs:
-        proceed_to_blogs: Proceed to blogs
+        proceed_to_blogs: Перейти к блогам
   confirm_detach: Are you sure to remove this Identity Provider? You will not be able to use it in the future.
   alert_detach: You must provide a valid email address in order to remove this Identity Provider
   users:
     confirm_credentials:
-      title: Confirm your credentials
+      title: Подтвердите ваши учётные данные
       instructions_html: |
-        There is already another user on Airesis with the same email address.<br />
-        Insert your password on Airesis to join the two accounts.<br />
-        If you do not remember the password, proceed to the 'Recover Password' page.
+        На Airesis уже есть пользователь с таким адресом электронной почты.<br />
+        Введите ваш пароль на on Airesis, чтобы войти в два аккаунта.<br />
+        Если вы не помните пароль, перейдите на страницу «Восстановить пароль».
   proposal_comments:
     manage_noise:
       title: Manage useless contributes
       help: Drag and drop on the right the contributes you consider useless for the discussion
   votations:
     create:
-      confirm: Vote registered correctly. Thank you!
+      confirm: Голос зарегистрирован правильно. Спасибо!
   errors:
     messages:
       invalid_token: Security Token Invalid
       votation: Sorry but something went wrong while casting your vote. Try again later.
     votation:
-      already_voted: You have already voted for this proposal
+      already_voted: Вы уже голосовали по этому предложению
