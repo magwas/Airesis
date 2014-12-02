@@ -1,7 +1,8 @@
 Airesis - Choose to participate
 ===========================================
 [![Build Status](https://travis-ci.org/coorasse/Airesis.svg?branch=staging)](https://travis-ci.org/coorasse/Airesis)
-
+[![Dependency Status](https://gemnasium.com/coorasse/Airesis.svg)](https://gemnasium.com/coorasse/Airesis)
+[![Code Climate](https://codeclimate.com/repos/547c8dd16956804e660ee4a3/badges/40feae106fc5c88511e8/gpa.svg)](https://codeclimate.com/repos/547c8dd16956804e660ee4a3/feed)
 
 The first web application for edemocracy fully OpenSource and Free
 
@@ -114,3 +115,12 @@ Airesis has been developed and tested using PostgreSQL 9.
 It's necessary to have PostgreSQL installed with the hstore extension enabled.
 
 Is also necessary to have Redis in order to execute Sidekiq and all background jobs.
+
+
+Environment variables
+---------------------
+
+GEOSPATIAL_NAME is used to geocode users when they register. Is your username in http://www.geonames.org/.
+It is used by https://github.com/panthomakos/timezone to obtain timezone based on latitude and longitude and you don't need it in development.
+
+MAPS_API_KEY is a browser key provided by google to access map services (https://console.developers.google.com)
