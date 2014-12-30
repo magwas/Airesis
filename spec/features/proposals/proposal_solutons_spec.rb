@@ -30,4 +30,15 @@ describe 'create proposal solutions', type: :feature, js: true do
 
   end
 
+  it 'cannot create solutions in others public proposal' do
+    @user = create(:default_user)
+    @user1 = create(:default_user)
+    @ability = Ability.new(@user)
+    @public_proposal = create(:public_proposal, quorum: BestQuorum.public.first, current_user_id: @user.id)
+
+    login_as @user1, scope: :user
+
+    visit edit_proposal_path(@public_proposal)
+    expect(page).to have_content "Unauthorized access"
+  end
 end
