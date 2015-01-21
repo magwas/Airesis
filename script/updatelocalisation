@@ -1,0 +1,14 @@
+#!/bin/bash
+rm -rf tmp/download
+mkdir -p tmp/download
+locale='hu-HU'
+for i in 15 26 13 14 11 16 25 24 17 27
+do
+	wget -q --content-disposition=on -P tmp/download --user=edehu --password=`cat /etc/airesis/crowdinpasswd` https://crowdin.com/project/airesis/hu/$i/download
+done
+for i in `ls tmp/download/*|grep -v tmp/download/hu-HU.yml`
+do
+	bn=`basename $i .$locale.yml`
+	cp tmp/download/$bn.$locale.yml config/locales/$bn/$bn.$locale.yml
+done
+cp tmp/download/$locale.yml config/locales/main/
